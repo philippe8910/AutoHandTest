@@ -430,7 +430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   photoCamera: {fileID: 8633386674907739860}
   isGrab: 0
-  photograph: {fileID: 34719884604952080, guid: b5de45d32b28e2e4b8dbbb8fee884f46, type: 3}
+  photograph: {fileID: 34719884604952080, guid: ff495c3361b1e5f4c9fded500469c41e, type: 3}
   createPhotoPos: {fileID: 8633386674142462586}
   shutterClickSound: {fileID: 1754412318}
 --- !u!114 &7779168452426215819
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4026531895
 --- !u!1 &8633386674142462587
 GameObject:
   m_ObjectHideFlags: 0
