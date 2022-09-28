@@ -55,7 +55,7 @@ public class CameraAction : MonoBehaviour
         
         camera.Render();
         
-        Texture2D image = new Texture2D(camera.targetTexture.width, camera.targetTexture.height);
+        Texture2D image = new Texture2D(camera.targetTexture.width, camera.targetTexture.height , TextureFormat.RGB24, false, true);
         image.ReadPixels(new Rect(0, 0, camera.targetTexture.width, camera.targetTexture.height), 0, 0);
         image.Apply();
         
