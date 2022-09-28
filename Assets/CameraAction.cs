@@ -16,6 +16,8 @@ public class CameraAction : MonoBehaviour
 
     [SerializeField] private Transform createPhotoPos;
 
+    [SerializeField] private AudioSource shutterClickSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,7 @@ public class CameraAction : MonoBehaviour
             var image = photoImage.GetComponent<MeshRenderer>();
         
             image.material.SetTexture("_BaseMap", takePhoto);
+            shutterClickSound.Play();
         }
     }
     
