@@ -432,6 +432,7 @@ MonoBehaviour:
   isGrab: 0
   photograph: {fileID: 34719884604952080, guid: b5de45d32b28e2e4b8dbbb8fee884f46, type: 3}
   createPhotoPos: {fileID: 8633386674142462586}
+  shutterClickSound: {fileID: 1754412318}
 --- !u!114 &7779168452426215819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,18 +455,6 @@ MonoBehaviour:
       - m_Target: {fileID: 7779168452426215818}
         m_TargetAssemblyTypeName: CameraAction, Assembly-CSharp
         m_MethodName: TakePhoto
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1754412318}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
